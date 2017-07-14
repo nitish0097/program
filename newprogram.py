@@ -8,7 +8,7 @@ class Notes:
             def addtitle(title, content):
                 self.Notes[title] = self.Notes.get(title, [content])
         addtitle(input("enter the title :"), input("enter the content:"))
-        n==2:
+        if n==2:
             print self.Notes #it prints the dictionay
             self.Notes.items()
             d = [(k,v) for k,v in self.Notes.items()]#converts into list
