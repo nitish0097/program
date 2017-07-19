@@ -15,7 +15,7 @@ class Notes:
             addtitle(raw_input("enter the title :"), raw_input("enter the content:"))
             print (self.Notes)   # it prints the dictionay
           else:
-            for a in enumerate(self.Notes,0): #it  get the index for  keys-valuespairs
+            for a in enumerate(self.Notes,1): #it  get the index for  keys-valuespairs
                 print (a)
             self.Notes.items()
             d = [(k, v) for k, v in self.Notes.items()]  # converts into list
