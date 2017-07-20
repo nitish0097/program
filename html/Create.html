@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Adamina' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+<body style="background-color:#f2f2f2 "></body>
+<style>
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-family:Assistant;
+    font-size:15px
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family:Adamina;
+    font-size: 15px;
+    
+}
+</style>
+</head>
+<body>
+
+<h3 style="text-align: center;">New Notes</h3>
+
+<div class="container">
+  <form>
+    <label>Name</label>
+    <input type="text" name="firstname" placeholder="Your name..">
+
+    <label>Title</label>
+    <input type="text" name="Title" placeholder="Your Title Here..">
+    <label>Content</label>
+    <textarea name="content" placeholder="Write something.." style="height:100px"></textarea>
+
+    <input type="submit" onclick="alert('Your Notes is created')" "value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
