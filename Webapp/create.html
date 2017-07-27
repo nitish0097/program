@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes</title>
+ <style>
+ input[type=text],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-family:Assistant;
+    font-size:15px;
+    color: black
+}
+</style>
+</head>
+<body>Hello!
+<br>
+<br>
+ <form action="/submit" method="post">
+    <label>Name</label>
+        <input type="text" name="Name" placeholder="Your Name Here..">
+    <label>Title</label>
+        <input type="text" name="Title" placeholder="Your Title Here..">
+    <label>Content</label>
+        <textarea name="content" placeholder="Write something.." style="height:100px"></textarea>
+     <input type="submit" value="Submit Notes">
+  </form>
+</body>
+</html>
